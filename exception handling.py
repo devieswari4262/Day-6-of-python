@@ -4,7 +4,7 @@
 #else block
 #final block
 
-'''try:
+try:
     a=int(input("enter the number"))
     print(10/a)
 except:
@@ -43,16 +43,22 @@ enter the number:red
 enter numbers other than 0
 alphabets not divisible by zeroenter the number:red
 enter numbers other than 0
-alphabets not divisible by zero'''
+alphabets not divisible by zeross
 
 try:
     number=int(input("enter the number:"))
     a=1000/number
 except:
-    print("enter the number other than 0")
+    print("enter the number sother than 0")
     print("alphabets not divisible by zero")
 else:
     print("code is running:",a)
 finally:
     print("executing completed")
+o/p:code is running: 1.4749262536873156
+executing completed
+enter the number:tree
+enter the number other than 0
+alphabets not divisible by zero
+executing completed
 
